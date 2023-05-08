@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".FirstTimeActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back"
+        android:src="@drawable/left"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        app:tint="#2D3135" />
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/back"
+        android:layout_alignBottom="@+id/back"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/bold"
+        android:text="Edit Profile"
+        android:textColor="#1E2229"
+        android:textSize="18sp" />
+
+    <com.sneva.gola.GolaImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/profile"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/profile"
+        app:gola_border_width="2dp"
+        android:layout_below="@id/back"
+        app:gola_circle_background_color="@color/white"
+        app:gola_border_color="#F3F3F3"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="90dp" />
+
+    <ImageView
+        android:layout_below="@id/profile"
+        android:layout_marginTop="-23dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/edit"
+        android:padding="6dp"
+        android:elevation="12sp"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/selected_tab"
+        app:tint="#2D3135" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/nameBox"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Enter Your Name"
+        android:textColorHint="#949CA6"
+        app:boxCornerRadiusBottomEnd="9dp"
+        app:boxCornerRadiusBottomStart="9dp"
+        app:boxCornerRadiusTopEnd="9dp"
+        app:boxCornerRadiusTopStart="9dp"
+        app:boxStrokeErrorColor="#FF9797"
+        app:errorEnabled="false"
+        app:errorIconDrawable="@drawable/error"
+        app:errorTextAppearance="@style/StyleErrorText"
+        app:errorTextColor="#FF5353"
+        app:hintTextColor="#949CA6"
+        app:startIconDrawable="@drawable/name"
+        app:startIconTint="#333A42">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#1E242B"
+            android:fontFamily="@font/medium"
+            android:inputType="textEmailAddress"
+            android:textSize="15sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/save"
+        android:text="Store Data"
+        android:textSize="14sp"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:fontFamily="@font/bold"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:backgroundTint="#FF2222"
+        android:layout_below="@id/nameBox"
+        android:layout_centerHorizontal="true"
+        app:cornerRadius="50dp"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="15dp" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="@string/banner"/>
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_above="@id/adView"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/medium"
+        android:text="We never store your data to server this is temporary data used for environment purpose only..."
+        android:textColor="#B8BDC6"
+        android:textSize="12sp" />
+
+</RelativeLayout>

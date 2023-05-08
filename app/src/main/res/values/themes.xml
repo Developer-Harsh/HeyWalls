@@ -1,0 +1,49 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.HeyWalls" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#373C43</item>
+        <item name="colorPrimaryDark">#373C43</item>
+        <item name="colorAccent">#373C43</item>
+        <item name="android:statusBarColor" tools:targetApi="21">#9CF6F6F6</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/white</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+    </style>
+
+    <style name="Theme.WALLPAPER" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#000</item>
+        <item name="colorPrimaryDark">#000</item>
+        <item name="colorAccent">#000</item>
+        <item name="android:statusBarColor" tools:targetApi="21">@color/black</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/black</item>
+    </style>
+
+    <style name="MyTabLayoutTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="StyleHelperText" parent="ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:textSize">8sp</item>
+        <item name="fontFamily">@font/medium</item>
+    </style>
+
+    <style name="StyleErrorText" parent="ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:textSize">8sp</item>
+        <item name="fontFamily">@font/medium</item>
+    </style>
+
+    <style name="StyleBottomSheetDialog" parent="ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/StyleBottomSheet</item>
+    </style>
+
+    <style name="StyleBottomSheet" parent="Widget.MaterialComponents.BottomSheet">
+        <item name="shapeAppearanceOverlay">@style/StyleShapeBottomSheet</item>
+    </style>
+
+    <style name="StyleShapeBottomSheet" parent="Widget.MaterialComponents.BottomSheet">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">25dp</item>
+        <item name="cornerSizeTopRight">25dp</item>
+    </style>
+</resources>
