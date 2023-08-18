@@ -22,7 +22,23 @@ We welcome contributions from fellow developers to enhance and expand HeyWalls. 
 
 ## Getting Started
 
-Explore our user-friendly [documentation](link_to_documentation) to set up your development environment and gain insights into the app's architecture and design principles.
+Follow these steps to get started with HeyWalls:
+
+1. **Download Android Studio:** If you haven't already, [download and install Android Studio](https://developer.android.com/studio) on your system.
+
+2. **Install Git:** If you don't have Git installed, you can download it from [here](https://git-scm.com/downloads) and follow the installation instructions for your operating system.
+
+3. **Clone the Repository:** Open Android Studio and choose "Get from Version Control" on the main screen. Paste the repository URL (`https://github.com/DeveloperHarsh/HeyWalls.git`) and click "Clone". Android Studio will then clone the repository to your local machine.
+
+4. **Open the Project:** After the cloning is complete, open the HeyWalls project in Android Studio by selecting the project folder.
+
+5. **Edit Constants:** In the `utils/constants.java` file of the project, replace the existing JSON data with your own JSON data. This JSON data is used for managing wallpapers within the app.
+
+6. **Build and Run:** Once you've made your changes, build and run the HeyWalls app using Android Studio. You can choose an emulator or a physical device for testing.
+
+7. **Explore and Customize:** Now that you have the app running, explore its features and functionality. Feel free to customize and enhance the app according to your preferences.
+
+By following these steps, you'll have HeyWalls up and running on your development environment. Happy coding!
 
 ## Community
 
