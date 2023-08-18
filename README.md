@@ -6,13 +6,13 @@ Welcome to the HeyWalls GitHub repository, your gateway to an unparalleled Andro
 Here we have some screenshots of HeyWall application we welcome you to see them.
 
 <div align="center">
-    <img src="https://github.com/DeveloperHarsh/HeyWalls/assets/s1.jpg" alt="Screenshot 1" width="150" height="300" />
-    <img src="path/to/screenshot2.png" alt="Screenshot 2" width="150" height="300" />
-    <img src="path/to/screenshot3.png" alt="Screenshot 3" width="150" height="300" />
-    <img src="path/to/screenshot4.png" alt="Screenshot 4" width="150" height="300" />
-    <img src="path/to/screenshot5.png" alt="Screenshot 5" width="150" height="300" />
-    <img src="path/to/screenshot6.png" alt="Screenshot 6" width="150" height="300" />
-    <img src="path/to/screenshot7.png" alt="Screenshot 7" width="150" height="300" />
+    <img src="https://github.com/Developer-Harsh/HeyWalls/blob/master/assets/s1.jpg?raw=true" alt="Screenshot 1" height="300" />
+    <img src="https://github.com/Developer-Harsh/HeyWalls/blob/master/assets/s2.jpg?raw=true" alt="Screenshot 2" height="300" />
+    <img src="https://github.com/Developer-Harsh/HeyWalls/blob/master/assets/s3.jpg?raw=true" alt="Screenshot 3" height="300" />
+    <img src="https://github.com/Developer-Harsh/HeyWalls/blob/master/assets/s4.jpg?raw=true" alt="Screenshot 4" height="300" />
+    <img src="https://github.com/Developer-Harsh/HeyWalls/blob/master/assets/s5.jpg?raw=true" alt="Screenshot 5" height="300" />
+    <img src="https://github.com/Developer-Harsh/HeyWalls/blob/master/assets/s6.jpg?raw=true" alt="Screenshot 6" height="300" />
+    <img src="https://github.com/Developer-Harsh/HeyWalls/blob/master/assets/s7.jpg?raw=true" alt="Screenshot 7" height="300" />
 </div>
 
 ## Key Features
