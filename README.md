@@ -2,6 +2,19 @@
 
 Welcome to the HeyWalls GitHub repository, your gateway to an unparalleled Android wallpaper application developed by Harsh Kumar Singh, also known as Developer Harsh. Harnessing the power of Java and XML/JSON parsing, HeyWalls offers users a frictionless journey to discovering, downloading, and setting captivating wallpapers for their devices.
 
+## Screenshots
+Here we have some screenshots of HeyWall application we welcome you to see them.
+
+<div align="center">
+    <img src="https://github.com/DeveloperHarsh/HeyWalls/assets/s1.jpg" alt="Screenshot 1" width="150" height="300" />
+    <img src="path/to/screenshot2.png" alt="Screenshot 2" width="150" height="300" />
+    <img src="path/to/screenshot3.png" alt="Screenshot 3" width="150" height="300" />
+    <img src="path/to/screenshot4.png" alt="Screenshot 4" width="150" height="300" />
+    <img src="path/to/screenshot5.png" alt="Screenshot 5" width="150" height="300" />
+    <img src="path/to/screenshot6.png" alt="Screenshot 6" width="150" height="300" />
+    <img src="path/to/screenshot7.png" alt="Screenshot 7" width="150" height="300" />
+</div>
+
 ## Key Features
 
 1. **Vast Wallpaper Collection:** Dive into a curated selection of stunning wallpapers sourced from various genres, ensuring a visual treat for every user's preference.
