@@ -42,10 +42,10 @@ By following these steps, you'll have HeyWalls up and running on your developmen
 
 ## Community
 
-Join our active community of developers, designers, and enthusiasts on our [Discord server](link_to_discord). Share your experiences, exchange ideas, and collaborate on making HeyWalls even more exceptional.
+Join our active community of developers, designers, and enthusiasts on our [YouTube Podcast](https://youtube.com/@developerharsh). Share your experiences, exchange ideas, and collaborate on making HeyWalls even more exceptional.
 
 ## License
 
-HeyWalls is released under the [MIT License](https://github.com/DeveloperHarsh/HeyWalls/blob/main/LICENSE), granting you the freedom to modify and distribute the app while acknowledging its origins.
+HeyWalls is released under the [MIT License](https://github.com/DeveloperHarsh/HeyWalls/LICENSE), granting you the freedom to modify and distribute the app while acknowledging its origins.
 
 Discover the future of Android wallpaper applications – explore HeyWalls today!
