@@ -1,6 +1,6 @@
 # HeyWalls: Seamless Android Wallpaper Experience
 
-Welcome to the HeyWalls GitHub repository, your gateway to an unparalleled Android wallpaper application developed by Harsh Kumar Singh, also known as Developer Harsh. Harnessing the power of Java and XML/JSON parsing, HeyWalls offers users a frictionless journey to discovering, downloading, and setting captivating wallpapers for their devices.
+Welcome to the HeyWalls GitHub repository, your gateway to an unparalleled Android wallpaper application developed by Harsh Kumar Singh, also known as Developer Harsh. Harnessing the power of Java and XML/JSON parsing and Room Database for offline functionality, HeyWalls offers users a frictionless journey to discovering, downloading, and setting captivating wallpapers for their devices.
 
 ## Screenshots
 Here we have some screenshots of HeyWall application we welcome you to see them.
